@@ -58,6 +58,12 @@ return {
           ellipsis_char = "...",
         }),
       },
+      window = {
+        completion = {
+          border = "rounded",
+          winhighlight = "Normal:CmpNormal,FloatBorder:CmpNormal",
+        },
+      },
     })
   end,
 }
